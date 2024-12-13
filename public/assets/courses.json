@@ -1,0 +1,188 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "Web Design for Beginners",
+        "description": "Master the fundamentals of web design and development in just 6 weeks with John Doe.",
+        "instructor": "John Doe",
+        "category": "Web Development",
+        "duration": "6 Weeks",
+        "modules": [
+          {
+            "title": "Module 1: Introduction to Web Design",
+            "lessons": [
+              "Understanding the Basics of Web Design",
+              "Design Principles for Beginners"
+            ]
+          },
+          {
+            "title": "Module 2: HTML Essentials",
+            "lessons": [
+              "Structuring Web Pages with HTML",
+              "Using Semantic HTML Elements"
+            ]
+          },
+          {
+            "title": "Module 3: Styling with CSS",
+            "lessons": [
+              "Introduction to CSS Syntax",
+              "Applying Styles to HTML Elements"
+            ]
+          },
+          {
+            "title": "Module 4: Advanced CSS Techniques",
+            "lessons": [
+              "Responsive Design with Media Queries",
+              "CSS Flexbox and Grid Layouts"
+            ]
+          },
+          {
+            "title": "Module 5: JavaScript Basics",
+            "lessons": [
+              "Introduction to JavaScript Syntax",
+              "Adding Interactivity to Web Pages"
+            ]
+          },
+          {
+            "title": "Module 6: Building Real Projects",
+            "lessons": [
+              "Creating a Portfolio Website",
+              "Deploying Your Website Online"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Python Programming Essentials",
+        "description": "Learn the basics of Python programming and build your first application.",
+        "instructor": "Jane Smith",
+        "category": "Programming",
+        "duration": "8 Weeks",
+        "modules": [
+          {
+            "title": "Module 1: Introduction to Python",
+            "lessons": [
+              "Installing Python and IDE Setup",
+              "Writing Your First Python Script"
+            ]
+          },
+          {
+            "title": "Module 2: Python Data Structures",
+            "lessons": [
+              "Understanding Lists, Tuples, and Dictionaries",
+              "Working with Sets and Strings"
+            ]
+          },
+          {
+            "title": "Module 3: Functions and Modules",
+            "lessons": [
+              "Defining Functions in Python",
+              "Using Built-in and Custom Modules"
+            ]
+          },
+          {
+            "title": "Module 4: Working with Files",
+            "lessons": [
+              "Reading and Writing Files",
+              "Handling File Exceptions"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Data Science Fundamentals",
+        "description": "A beginner-friendly guide to the basics of data science and machine learning.",
+        "instructor": "Michael Johnson",
+        "category": "Data Science",
+        "duration": "10 Weeks",
+        "modules": [
+          {
+            "title": "Module 1: Introduction to Data Science",
+            "lessons": [
+              "What is Data Science?",
+              "Applications of Data Science in Real Life"
+            ]
+          },
+          {
+            "title": "Module 2: Data Manipulation with Python",
+            "lessons": [
+              "Working with Pandas for Data Frames",
+              "Cleaning and Preprocessing Data"
+            ]
+          },
+          {
+            "title": "Module 3: Data Visualization",
+            "lessons": [
+              "Creating Plots with Matplotlib",
+              "Interactive Dashboards with Seaborn"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Digital Marketing 101",
+        "description": "Learn the art of digital marketing and how to grow your business online.",
+        "instructor": "Emily Davis",
+        "category": "Marketing",
+        "duration": "6 Weeks",
+        "modules": [
+          {
+            "title": "Module 1: Understanding Digital Marketing",
+            "lessons": [
+              "Introduction to Digital Marketing",
+              "Key Metrics and KPIs"
+            ]
+          },
+          {
+            "title": "Module 2: Social Media Marketing",
+            "lessons": [
+              "Creating Engaging Content",
+              "Analytics and Optimization"
+            ]
+          },
+          {
+            "title": "Module 3: SEO Basics",
+            "lessons": [
+              "Keyword Research",
+              "Improving Website Rankings"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Graphic Design Masterclass",
+        "description": "Explore the principles of design and learn how to create stunning visuals.",
+        "instructor": "Sophia Brown",
+        "category": "Design",
+        "duration": "8 Weeks",
+        "modules": [
+          {
+            "title": "Module 1: Design Principles",
+            "lessons": [
+              "Understanding Color Theory",
+              "Typography Basics"
+            ]
+          },
+          {
+            "title": "Module 2: Tools of the Trade",
+            "lessons": [
+              "Getting Started with Adobe Photoshop",
+              "Using Illustrator for Vector Graphics"
+            ]
+          },
+          {
+            "title": "Module 3: Advanced Techniques",
+            "lessons": [
+              "Creating Logos and Brand Identity",
+              "Designing for Print vs Digital"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
