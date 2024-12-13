@@ -1,0 +1,53 @@
+<!-- Navbar Start -->
+<div class="container-fluid">
+    <div class="row border-top px-xl-5" >
+      <div class="col-lg-3 d-none d-lg-block">
+        <a href="" class="text-decoration-none">
+          <img src="assets/img/logoeywa.png" height="50" />
+        </a>
+      </div>
+      <div class="col-lg-9" >
+        <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
+          <a href="" class="text-decoration-none d-block d-lg-none">
+            <img src="assets/img/logoeywa.png" height="50" />
+          </a>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbarCollapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-between"
+            id="navbarCollapse" style="background-color: #eeeeee;"
+          >
+            <div class="navbar-nav py-0">
+              <a href="index.html" class="nav-item nav-link active">Home</a>
+              <a href="about.html" class="nav-item nav-link">About</a>
+              <a [routerLink]="['/admin/courses']" class="nav-item nav-link">Courses</a>
+              <a href="teacher.html" class="nav-item nav-link">Teachers</a>
+              <div class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  >Blog</a
+                >
+                <div class="dropdown-menu rounded-0 m-0">
+                  <a href="blog.html" class="dropdown-item">Blog List</a>
+                  <a href="single.html" class="dropdown-item">Blog Detail</a>
+                </div>
+              </div>
+              <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" [routerLink]="['/login']"
+              >Login</a
+            >
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- Navbar End -->
