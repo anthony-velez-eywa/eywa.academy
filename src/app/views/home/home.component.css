@@ -1,0 +1,11 @@
+.teacher-card{
+    min-height: 180px;
+    position: relative;
+}
+
+.btn-distance {
+    position: absolute;
+    bottom: 20px;  /* Ajusta la distancia desde el fondo de la tarjeta */
+    left: 50%;
+    transform: translateX(-50%);
+}

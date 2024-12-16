@@ -1,0 +1,12 @@
+/* Asegurarse de que las imágenes sean redondas y responsivas */
+.testimonial-img {
+    width: 80px !important; /* Ajustar el tamaño de las imágenes */
+    height: 80px !important; /* Hacer las imágenes cuadradas */
+    object-fit: cover; /* Asegura que la imagen se recorte proporcionalmente */
+    border-radius: 50%; /* Hace que las imágenes sean circulares */
+    margin-bottom: 20px; /* Separación de la imagen con el texto */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    margin-left: auto; /* Centra la imagen horizontalmente */
+    margin-right: auto; /* Centra la imagen horizontalmente */
+}
+

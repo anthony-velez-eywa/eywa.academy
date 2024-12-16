@@ -1,0 +1,171 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Pablo Ayala",
+      "bio": "Pablo Ayala es el fundador y estratega principal de varias startups exitosas. Con más de 15 años de experiencia en Venture Building, se especializa en la creación de estrategias de crecimiento a largo plazo, desarrollando modelos de negocio innovadores y escalables.",
+      "title": "Founder, Chief Strategist",
+      "expertise": ["Estrategia de Crecimiento", "Venture Building", "Modelos de Negocio", "Desarrollo de Startups", "Planificación Estratégica"],
+      "education": "Licenciatura en Administración de Empresas por la Universidad de Barcelona",
+      "yearsOfExperience": 15,
+      "coursesTaught": [
+        {
+          "courseId": 1,
+          "courseName": "Fundamentos de Startups: De la Idea a la Ejecución",
+          "courseDuration": "6 Semanas",
+          "courseRating": 4.8
+        }
+      ],
+      "photo": "assets/img/Pablo-Ayala.jpg",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/pablo-ayala",
+        "twitter": "https://twitter.com/pabloayala",
+        "website": "https://pabloayala.com"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Mikel Pajares",
+      "bio": "Mikel Pajares es el fundador y Chief Technologist de varias startups tecnológicas, especializándose en la integración de soluciones tecnológicas innovadoras. Su enfoque en el desarrollo de productos y plataformas ha permitido que muchas startups escalen a nuevos mercados rápidamente.",
+      "title": "Founder, Chief Technologist",
+      "expertise": ["Tecnología de Startups", "Desarrollo de Producto", "Innovación Tecnológica", "Transformación Digital", "Soluciones Tecnológicas"],
+      "education": "Máster en Ingeniería de Software por la Universidad Politécnica de Cataluña",
+      "yearsOfExperience": 12,
+      "coursesTaught": [
+        {
+          "courseId": 2,
+          "courseName": "Desarrollo de Producto y Crecimiento Acelerado",
+          "courseDuration": "8 Semanas",
+          "courseRating": 4.7
+        }
+      ],
+      "photo": "assets/img/Mikel-Pajares.jpg",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/mikel-pajares",
+        "twitter": "https://twitter.com/mikelpajares",
+        "website": "https://mikelpajares.com"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Mayr Alcaine",
+      "bio": "Mayr Alcaine es miembro del consejo y Investment Manager con más de 10 años de experiencia en la gestión de inversiones en startups tecnológicas y en expansión. Se enfoca en encontrar oportunidades de alto impacto para empresas emergentes en etapas tempranas.",
+      "title": "Board Member, Investment Manager",
+      "expertise": ["Inversiones en Startups", "Gestión de Inversiones", "Venture Capital", "Evaluación de Proyectos", "Estrategias de Inversión"],
+      "education": "Licenciatura en Finanzas por la Universidad Autónoma de Madrid",
+      "yearsOfExperience": 10,
+      "coursesTaught": [
+        {
+          "courseId": 3,
+          "courseName": "Gestión Financiera para Startups",
+          "courseDuration": "7 Semanas",
+          "courseRating": 4.6
+        }
+      ],
+      "photo": "assets/img/Mayr-Alcaine.jpg",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/mayr-alcaine",
+        "twitter": "https://twitter.com/mayralcaine",
+        "website": "https://mayralcaine.com"
+      }
+    },
+    {
+      "id": 4,
+      "name": "María García",
+      "bio": "María García es la directora financiera de varias startups en crecimiento. Con una sólida experiencia en la gestión de finanzas para empresas emergentes, ayuda a las startups a planificar su expansión financiera y a asegurar su viabilidad económica a largo plazo.",
+      "title": "Chief Financial Officer",
+      "expertise": ["Gestión Financiera", "Finanzas para Startups", "Planificación Financiera", "Estrategias de Crecimiento", "Modelos de Financiación"],
+      "education": "Máster en Finanzas Corporativas por la Universidad de Barcelona",
+      "yearsOfExperience": 10,
+      "coursesTaught": [
+        {
+          "courseId": 4,
+          "courseName": "Marketing Digital para Startups",
+          "courseDuration": "6 Semanas",
+          "courseRating": 4.7
+        }
+      ],
+      "photo": "assets/img/Maria-Garcia.jpg",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/maria-garcia",
+        "twitter": "https://twitter.com/mariagarcia",
+        "website": "https://mariagarcia.com"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Xavier Riba",
+      "bio": "Xavier Riba es miembro del consejo en varias startups y uno de los principales gestores en Eywa Catalunya. Con más de 15 años de experiencia, ha ayudado a cientos de empresas emergentes a expandirse globalmente y a lograr un crecimiento sostenible.",
+      "title": "Board Member, Eywa Catalunya MD",
+      "expertise": ["Expansión Internacional", "Desarrollo de Startups", "Estrategias Globales", "Venture Capital", "Innovación en Startups"],
+      "education": "Licenciatura en Negocios Internacionales por la Universidad de Barcelona",
+      "yearsOfExperience": 15,
+      "coursesTaught": [
+        {
+          "courseId": 5,
+          "courseName": "Estrategias de Venture Building: Cómo Crear Startups Exitosas",
+          "courseDuration": "8 Semanas",
+          "courseRating": 4.9
+        }
+      ],
+      "photo": "assets/img/Xabier-Riba.jpg",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/xavier-riba",
+        "twitter": "https://twitter.com/xavierriba",
+        "website": "https://xavier-riba.com"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Mikel Iriondo",
+      "bio": "Mikel Iriondo es miembro del consejo y manager de inversiones con más de 12 años de experiencia en la gestión de fondos para startups en sus primeras etapas. Su enfoque está en la creación de valor a través de la gestión eficiente de capital y el desarrollo de estrategias de crecimiento.",
+      "title": "Board Member, Investment Manager",
+      "expertise": ["Gestión de Inversiones", "Capital Riesgo", "Venture Capital", "Estrategias Financieras", "Evaluación de Startups"],
+      "education": "Máster en Gestión de Inversiones por la Universidad de Deusto",
+      "yearsOfExperience": 12,
+      "coursesTaught": [
+        {
+          "courseId": 6,
+          "courseName": "Crecimiento y Escalabilidad en Startups: Estrategias Avanzadas",
+          "courseDuration": "7 Semanas",
+          "courseRating": 4.8
+        }
+      ],
+      "photo": "assets/img/Mikel-Iriondo.jpg",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/mikel-iriondo",
+        "twitter": "https://twitter.com/mikeliriondo",
+        "website": "https://mikeliriondo.com"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Yeray Mateos",
+      "bio": "Yeray Mateos es el Managing Director en varias startups tecnológicas, con un enfoque en la implementación de estrategias de crecimiento y escalabilidad a nivel global. Ha liderado equipos multidisciplinarios en la creación de productos innovadores y sostenibles.",
+      "title": "Managing Director",
+      "expertise": ["Crecimiento Empresarial", "Escalabilidad", "Gestión de Startups", "Liderazgo de Equipos", "Innovación Tecnológica"],
+      "education": "Licenciatura en Ingeniería Industrial por la Universidad Politécnica de Valencia",
+      "yearsOfExperience": 10,
+      "coursesTaught": [
+        {
+          "courseId": 7,
+          "courseName": "Validación de Ideas de Startup: Métodos y Herramientas",
+          "courseDuration": "5 Semanas",
+          "courseRating": 4.6
+        },
+        {
+          "courseId": 8,
+          "courseName": "Transformación Digital para Startups: Innovación en el Emprendimiento",
+          "courseDuration": "6 Semanas",
+          "courseRating": 4.7
+        }
+      ],
+      "photo": "assets/img/Yeray.jpg",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/yeray-mateos",
+        "twitter": "https://twitter.com/yeraymateos",
+        "website": "https://yeraymateos.com"
+      }
+    }
+  ]
+}

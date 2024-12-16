@@ -8,17 +8,23 @@ import { TeacherComponent as  StudentTeacherComponent} from './views/student/tea
 import { HomeComponent } from './views/home/home.component';
 import { LoginComponent } from './views/login/login.component';
 import { CourseComponent as AdmCourseComponent } from './views/admin/courses/course/course.component';
+import { TeachersComponent } from './shared/views/teachers/teachers.component';
+import { BlogComponent } from './views/blog/blog.component';
+import { AboutComponent } from './views/about/about.component';
 
 export const routes: Routes = [
     { path: 'admin', children: [
         { path: 'courses', component: AdmCoursesComponent },
         { path: 'courses/:id', component: AdmCourseComponent },
         { path: 'dashboard', component: AdmDashboardComponent },
-        { path: 'teacher', component: AdmTeacherComponent },
       ] 
     },
     { path: 'home', component: HomeComponent },
     { path: 'login', component: LoginComponent },
+    { path: 'teachers', component: TeachersComponent },
+    { path: 'about', component: AboutComponent },
+    { path: 'blog/:id', component: BlogComponent },
+    { path: 'teacher/:id', component: AdmTeacherComponent },
     { path: 'student', children: [
         { path: 'courses', component: StudentCoursesComponent },
         { path: 'dashboard', component: StudentDashboardComponent },

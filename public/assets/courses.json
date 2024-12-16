@@ -1,188 +1,317 @@
 {
-    "courses": [
-      {
-        "id": 1,
-        "title": "Web Design for Beginners",
-        "description": "Master the fundamentals of web design and development in just 6 weeks with John Doe.",
-        "instructor": "John Doe",
-        "category": "Web Development",
-        "duration": "6 Weeks",
-        "modules": [
-          {
-            "title": "Module 1: Introduction to Web Design",
-            "lessons": [
-              "Understanding the Basics of Web Design",
-              "Design Principles for Beginners"
-            ]
-          },
-          {
-            "title": "Module 2: HTML Essentials",
-            "lessons": [
-              "Structuring Web Pages with HTML",
-              "Using Semantic HTML Elements"
-            ]
-          },
-          {
-            "title": "Module 3: Styling with CSS",
-            "lessons": [
-              "Introduction to CSS Syntax",
-              "Applying Styles to HTML Elements"
-            ]
-          },
-          {
-            "title": "Module 4: Advanced CSS Techniques",
-            "lessons": [
-              "Responsive Design with Media Queries",
-              "CSS Flexbox and Grid Layouts"
-            ]
-          },
-          {
-            "title": "Module 5: JavaScript Basics",
-            "lessons": [
-              "Introduction to JavaScript Syntax",
-              "Adding Interactivity to Web Pages"
-            ]
-          },
-          {
-            "title": "Module 6: Building Real Projects",
-            "lessons": [
-              "Creating a Portfolio Website",
-              "Deploying Your Website Online"
-            ]
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "title": "Python Programming Essentials",
-        "description": "Learn the basics of Python programming and build your first application.",
-        "instructor": "Jane Smith",
-        "category": "Programming",
-        "duration": "8 Weeks",
-        "modules": [
-          {
-            "title": "Module 1: Introduction to Python",
-            "lessons": [
-              "Installing Python and IDE Setup",
-              "Writing Your First Python Script"
-            ]
-          },
-          {
-            "title": "Module 2: Python Data Structures",
-            "lessons": [
-              "Understanding Lists, Tuples, and Dictionaries",
-              "Working with Sets and Strings"
-            ]
-          },
-          {
-            "title": "Module 3: Functions and Modules",
-            "lessons": [
-              "Defining Functions in Python",
-              "Using Built-in and Custom Modules"
-            ]
-          },
-          {
-            "title": "Module 4: Working with Files",
-            "lessons": [
-              "Reading and Writing Files",
-              "Handling File Exceptions"
-            ]
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "title": "Data Science Fundamentals",
-        "description": "A beginner-friendly guide to the basics of data science and machine learning.",
-        "instructor": "Michael Johnson",
-        "category": "Data Science",
-        "duration": "10 Weeks",
-        "modules": [
-          {
-            "title": "Module 1: Introduction to Data Science",
-            "lessons": [
-              "What is Data Science?",
-              "Applications of Data Science in Real Life"
-            ]
-          },
-          {
-            "title": "Module 2: Data Manipulation with Python",
-            "lessons": [
-              "Working with Pandas for Data Frames",
-              "Cleaning and Preprocessing Data"
-            ]
-          },
-          {
-            "title": "Module 3: Data Visualization",
-            "lessons": [
-              "Creating Plots with Matplotlib",
-              "Interactive Dashboards with Seaborn"
-            ]
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "title": "Digital Marketing 101",
-        "description": "Learn the art of digital marketing and how to grow your business online.",
-        "instructor": "Emily Davis",
-        "category": "Marketing",
-        "duration": "6 Weeks",
-        "modules": [
-          {
-            "title": "Module 1: Understanding Digital Marketing",
-            "lessons": [
-              "Introduction to Digital Marketing",
-              "Key Metrics and KPIs"
-            ]
-          },
-          {
-            "title": "Module 2: Social Media Marketing",
-            "lessons": [
-              "Creating Engaging Content",
-              "Analytics and Optimization"
-            ]
-          },
-          {
-            "title": "Module 3: SEO Basics",
-            "lessons": [
-              "Keyword Research",
-              "Improving Website Rankings"
-            ]
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "title": "Graphic Design Masterclass",
-        "description": "Explore the principles of design and learn how to create stunning visuals.",
-        "instructor": "Sophia Brown",
-        "category": "Design",
-        "duration": "8 Weeks",
-        "modules": [
-          {
-            "title": "Module 1: Design Principles",
-            "lessons": [
-              "Understanding Color Theory",
-              "Typography Basics"
-            ]
-          },
-          {
-            "title": "Module 2: Tools of the Trade",
-            "lessons": [
-              "Getting Started with Adobe Photoshop",
-              "Using Illustrator for Vector Graphics"
-            ]
-          },
-          {
-            "title": "Module 3: Advanced Techniques",
-            "lessons": [
-              "Creating Logos and Brand Identity",
-              "Designing for Print vs Digital"
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+  "courses": [
+    {
+      "id": 1,
+      "title": "Fundamentos de Startups: De la Idea a la Ejecución",
+      "description": "Aprende los principios fundamentales para construir una startup desde cero, incluyendo validación de ideas, investigación de mercado y financiación inicial.",
+      "instructor": "Pablo Ayala",
+      "instructor_id": 1,
+      "category": "Desarrollo de Startups",
+      "duration": "6 Semanas",
+      "imgSource": "assets/vendor/assets/img/cat-1.jpg",
+      "studentsCount": 1500,
+      "rating": 4.8,
+      "price": "$199",
+      "modules": [
+        {
+          "title": "Módulo 1: Validación de la Idea de tu Startup",
+          "lessons": [
+            "Cómo Identificar un Problema de Mercado",
+            "Realización de Investigación de Mercado y Encuestas",
+            "Validación de Ideas con Producto Mínimo Viable (MVP)"
+          ]
+        },
+        {
+          "title": "Módulo 2: Construyendo tu Equipo Fundador",
+          "lessons": [
+            "Roles Clave en un Equipo de Startup",
+            "Cómo Encontrar Co-Fundadores y Primeros Empleados",
+            "Construcción de la Cultura Empresarial desde el Primer Día"
+          ]
+        },
+        {
+          "title": "Módulo 3: Financiando tu Startup",
+          "lessons": [
+            "Entendiendo las Diferentes Opciones de Financiación (Auto-financiación, Inversores Ángeles, Capital Riesgo)",
+            "Cómo Presentar tu Proyecto a Inversores",
+            "Elaboración de un Plan de Negocios para Inversión"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Desarrollo de Producto y Crecimiento Acelerado",
+      "description": "Domina el arte de transformar tu producto inicial en un líder de mercado aplicando técnicas de crecimiento acelerado y desarrollo ágil.",
+      "instructor": "Mikel Pajares",
+      "instructor_id": 2,
+      "category": "Producto y Crecimiento",
+      "duration": "8 Semanas",
+      "imgSource": "assets/vendor/assets/img/cat-2.jpg",
+      "studentsCount": 1200,
+      "rating": 4.7,
+      "price": "$249",
+      "modules": [
+        {
+          "title": "Módulo 1: Desarrollo Ágil para Startups",
+          "lessons": [
+            "Introducción a la Metodología Ágil",
+            "Construcción de un Roadmap de Producto",
+            "Sprints y Ciclos de Retroalimentación"
+          ]
+        },
+        {
+          "title": "Módulo 2: Técnicas de Crecimiento Acelerado",
+          "lessons": [
+            "Entendiendo la Mentalidad de Crecimiento Acelerado",
+            "Aprovechando las Redes Sociales y Campañas Virales",
+            "Optimización de Tasas de Conversión y Retención"
+          ]
+        },
+        {
+          "title": "Módulo 3: Escalando tu Producto",
+          "lessons": [
+            "Automatización de Marketing y Operaciones",
+            "Expansión a Nuevos Mercados",
+            "Gestión de Retroalimentación de Clientes e Iteración del Producto"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Gestión Financiera para Startups",
+      "description": "Aprende a gestionar las finanzas de tu startup, desde la previsión de flujo de caja hasta la obtención de capital para crecimiento.",
+      "instructor": "Mayr Alcaine",
+      "instructor_id": 3,
+      "category": "Finanzas para Startups",
+      "duration": "7 Semanas",
+      "imgSource": "assets/vendor/assets/img/cat-3.jpg",
+      "studentsCount": 1100,
+      "rating": 4.6,
+      "price": "$179",
+      "modules": [
+        {
+          "title": "Módulo 1: Fundamentos de Finanzas para Startups",
+          "lessons": [
+            "Cómo Construir un Modelo Financiero Básico",
+            "Planificación de Flujos de Caja",
+            "Previsión de Ingresos y Gastos"
+          ]
+        },
+        {
+          "title": "Módulo 2: Estrategias de Financiación",
+          "lessons": [
+            "Fuentes de Financiación para Startups",
+            "Cómo Preparar tu Startup para Inversores",
+            "Elaboración de una Presentación (Pitch) Exitosa"
+          ]
+        },
+        {
+          "title": "Módulo 3: Optimización de Costos y Rentabilidad",
+          "lessons": [
+            "Cómo Reducir Costos en las Etapas Iniciales",
+            "Escalando de Manera Eficiente",
+            "Maximizando la Rentabilidad a Largo Plazo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Marketing Digital para Startups",
+      "description": "Desarrolla e implementa estrategias de marketing digital eficaces para hacer crecer tu startup y atraer a nuevos clientes.",
+      "instructor": "María García",
+      "instructor_id": 4,
+      "category": "Marketing para Startups",
+      "duration": "6 Semanas",
+      "imgSource": "assets/vendor/assets/img/cat-4.jpg",
+      "studentsCount": 900,
+      "rating": 4.7,
+      "price": "$199",
+      "modules": [
+        {
+          "title": "Módulo 1: Estrategias de Marketing Digital",
+          "lessons": [
+            "Entendiendo el Marketing Digital",
+            "Cómo Crear una Estrategia de Marketing de Contenidos",
+            "SEO y SEM para Startups"
+          ]
+        },
+        {
+          "title": "Módulo 2: Publicidad en Redes Sociales",
+          "lessons": [
+            "Creación de Anuncios en Facebook, Instagram y LinkedIn",
+            "Cómo Medir el Retorno de Inversión (ROI) en Campañas",
+            "Segmentación de Audiencia y Retargeting"
+          ]
+        },
+        {
+          "title": "Módulo 3: Analítica Web y Optimización de Conversiones",
+          "lessons": [
+            "Usando Google Analytics para Medir Resultados",
+            "Optimización de la Tasa de Conversión (CRO)",
+            "Herramientas de Marketing Automation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Estrategias de Venture Building: Cómo Crear Startups Exitosas",
+      "description": "Aprende cómo construir una startup desde cero y crear un modelo de negocio que permita escalar rápidamente, utilizando las mejores prácticas de venture building.",
+      "instructor": "Xavier Riba",
+      "instructor_id": 5,
+      "category": "Venture Building",
+      "duration": "8 Semanas",
+      "imgSource": "assets/vendor/assets/img/cat-5.jpg",
+      "studentsCount": 800,
+      "rating": 4.9,
+      "price": "$229",
+      "modules": [
+        {
+          "title": "Módulo 1: Introducción al Venture Building",
+          "lessons": [
+            "¿Qué es un Venture Builder?",
+            "Cómo los Venture Builders Difieren de las Incubadoras y Aceleradoras",
+            "Ventajas de Crear Startups de Manera Estructurada"
+          ]
+        },
+        {
+          "title": "Módulo 2: Diseño del Modelo de Negocio de tu Startup",
+          "lessons": [
+            "Identificación de Oportunidades de Mercado",
+            "Desarrollo de Propuestas de Valor Únicas",
+            "Elaboración de Modelos de Negocio Sostenibles"
+          ]
+        },
+        {
+          "title": "Módulo 3: Creación de Equipos Eficientes en un Venture Builder",
+          "lessons": [
+            "Estrategias para Seleccionar el Talento Adecuado",
+            "Construcción de Equipos Multidisciplinarios",
+            "Gestión de la Cultura Empresarial en el Venture Building"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Crecimiento y Escalabilidad en Startups: Estrategias Avanzadas",
+      "description": "Aprende cómo escalar una startup rápidamente utilizando herramientas de crecimiento, financiación y estrategias avanzadas para alcanzar el éxito.",
+      "instructor": "Mikel Iriondo",
+      "instructor_id": 6,
+      "category": "Crecimiento y Escalabilidad",
+      "duration": "7 Semanas",
+      "imgSource": "assets/vendor/assets/img/cat-6.jpg",
+      "studentsCount": 950,
+      "rating": 4.8,
+      "price": "$249",
+      "modules": [
+        {
+          "title": "Módulo 1: Principios del Crecimiento Acelerado",
+          "lessons": [
+            "Técnicas de Crecimiento Exponencial",
+            "Establecimiento de Métricas de Crecimiento Sostenible",
+            "Uso de Herramientas de Automatización"
+          ]
+        },
+        {
+          "title": "Módulo 2: Estrategias de Financiación para Escalar",
+          "lessons": [
+            "Cómo Atraer Inversores para Crecer",
+            "Modelos de Inversión y Capital Riesgo",
+            "Cómo Preparar una Ronda de Financiación Exitosa"
+          ]
+        },
+        {
+          "title": "Módulo 3: Expansión Internacional de Startups",
+          "lessons": [
+            "Estrategias de Internacionalización",
+            "Gestión de Operaciones en Nuevos Mercados",
+            "Adaptación Cultural y Localización de Producto"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Validación de Ideas de Startup: Métodos y Herramientas",
+      "description": "Descubre cómo validar una idea de startup rápidamente usando herramientas y métodos para testar la viabilidad de tu negocio antes de lanzarlo al mercado.",
+      "instructor": "Yeray Mateos",
+      "instructor_id": 7,
+      "category": "Validación de Ideas",
+      "duration": "5 Semanas",
+      "imgSource": "assets/vendor/assets/img/cat-7.jpg",
+      "studentsCount": 650,
+      "rating": 4.6,
+      "price": "$179",
+      "modules": [
+        {
+          "title": "Módulo 1: Métodos para Validar Ideas de Startup",
+          "lessons": [
+            "El Método Lean Startup",
+            "Cómo Usar Encuestas y Entrevistas para Validar Ideas",
+            "Creación de un Producto Mínimo Viable (MVP)"
+          ]
+        },
+        {
+          "title": "Módulo 2: Herramientas para la Validación Rápida",
+          "lessons": [
+            "Cómo Utilizar Plataformas de Crowdfunding para Validación",
+            "Pruebas de Mercado con Campañas de Publicidad Digital",
+            "Uso de Prototipos y MVPs para Obtener Feedback"
+          ]
+        },
+        {
+          "title": "Módulo 3: Análisis de Resultados y Decisiones",
+          "lessons": [
+            "Interpretación de Datos y Métricas de Validación",
+            "Decidir si Continuar, Pivotar o Abandonar la Idea",
+            "Cómo Hacer Iteraciones Rápidas en tu Producto"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Transformación Digital para Startups: Innovación en el Emprendimiento",
+      "description": "Aprende cómo aplicar las últimas tecnologías digitales en la construcción de tu startup, desde la automatización hasta el uso de inteligencia artificial para impulsar la innovación.",
+      "instructor": "Yeray Mateos",
+      "instructor_id": 7,
+      "category": "Transformación Digital",
+      "duration": "6 Semanas",
+      "imgSource": "assets/vendor/assets/img/cat-8.jpg",
+      "studentsCount": 700,
+      "rating": 4.7,
+      "price": "$219",
+      "modules": [
+        {
+          "title": "Módulo 1: Introducción a la Transformación Digital",
+          "lessons": [
+            "Qué es la Transformación Digital y por qué es Importante",
+            "Tecnologías Emergentes para Startups",
+            "Digitalización de Procesos Internos en Startups"
+          ]
+        },
+        {
+          "title": "Módulo 2: Inteligencia Artificial en Startups",
+          "lessons": [
+            "Uso de IA para la Toma de Decisiones Empresariales",
+            "Automatización de Marketing con Inteligencia Artificial",
+            "Integración de Herramientas de IA en el Producto"
+          ]
+        },
+        {
+          "title": "Módulo 3: Creación de una Cultura Digital Innovadora",
+          "lessons": [
+            "Fomentar la Innovación Continua en tu Startup",
+            "Gestión del Cambio y Aceptación de Nuevas Tecnologías",
+            "Cómo Liderar Equipos Digitalmente Preparados"
+          ]
+        }
+      ]
+    }
+  ]
+}
+

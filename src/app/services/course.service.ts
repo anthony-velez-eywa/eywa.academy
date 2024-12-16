@@ -6,7 +6,7 @@ import { map } from 'rxjs/operators';
 @Injectable({
   providedIn: 'root'
 })
-export class CoursesService {
+export class CourseService {
   private jsonPath = 'assets/courses.json'; // Ruta del archivo JSON
 
   constructor(private http: HttpClient) {}
@@ -16,9 +16,11 @@ export class CoursesService {
    * @returns Observable con la lista de cursos.
    */
   getCourses(): Observable<any[]> {
-    return this.http.get<{ courses: any[] }>(this.jsonPath).pipe(
+    let courses = this.http.get<{ courses: any[] }>(this.jsonPath).pipe(
       map(response => response.courses)
     );
+    console.log(courses);
+    return courses;
   }
 
   /**

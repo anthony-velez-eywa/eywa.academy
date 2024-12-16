@@ -1,0 +1,183 @@
+<!-- Detail Start -->
+<div class="container-fluid py-5">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="mb-5">
+          <!-- Artículo -->
+          <h6 class="text-primary mb-3">{{ blog.date }}</h6>
+          <h1 class="mb-5">{{ blog.title }}</h1>
+          <img
+            class="img-fluid rounded w-100 mb-4"
+            [src]="blog.image"
+            alt="Image"
+          />
+
+          <!-- Contenido del Artículo -->
+          <div *ngFor="let contentItem of blog.content">
+            <!-- Muestra encabezados y párrafos según el tipo -->
+            <h2
+              *ngIf="contentItem.type === 'heading' && contentItem.level === 2"
+            >
+              {{ contentItem.text }}
+            </h2>
+            <p *ngIf="contentItem.type === 'paragraph'">
+              {{ contentItem.text }}
+            </p>
+          </div>
+        </div>
+
+        <!-- Comment List -->
+        <div class="mb-5" *ngIf="blog.comments.length > 0">
+          <h3 class="text-uppercase mb-4" style="letter-spacing: 5px">
+            {{ blog.comments.length }} Comments
+          </h3>
+          <div *ngFor="let comment of blog.comments">
+            <div class="media mb-4">
+              <img
+                src="assets/img/avatar.jpeg"
+                alt="Image"
+                class="img-fluid rounded-circle"
+                style="
+                  width: 45px;
+                  height: 45px;
+                  object-fit: cover;
+                  border: 2px solid #ccc;
+                "
+              />
+
+              <div class="media-body">
+                <h6>
+                  {{ comment.author }}
+                  <small
+                    ><i>{{ comment.date }} at 12:00pm</i></small
+                  >
+                </h6>
+                <p>{{ comment.content }}</p>
+                <button class="btn btn-sm btn-secondary">Reply</button>
+
+                <!-- Replies -->
+                <div *ngIf="comment.replies?.length > 0">
+                  <div *ngFor="let reply of comment.replies">
+                    <div class="media mt-4">
+                      <img
+                        src="assets/img/avatar.jpeg"
+                        alt="Image"
+                        class="img-fluid rounded-circle"
+                        style="
+                          width: 45px;
+                          height: 45px;
+                          object-fit: cover;
+                          border: 2px solid #ccc;
+                        "
+                      />
+                      <div class="media-body">
+                        <h6>
+                          {{ reply.author }}
+                          <small
+                            ><i>{{ reply.date }} at 12:00pm</i></small
+                          >
+                        </h6>
+                        <p>{{ reply.content }}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Comment Form -->
+        <div class="bg-secondary rounded p-5">
+          <h3 class="text-uppercase mb-4" style="letter-spacing: 5px">
+            Leave a comment
+          </h3>
+          <form>
+            <div class="form-group">
+              <label for="name">Name *</label>
+              <input type="text" class="form-control border-0" id="name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" class="form-control border-0" id="email" />
+            </div>
+            <div class="form-group">
+              <label for="website">Website</label>
+              <input type="url" class="form-control border-0" id="website" />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea
+                id="message"
+                cols="30"
+                rows="5"
+                class="form-control border-0"
+              ></textarea>
+            </div>
+            <div class="form-group mb-0">
+              <input
+                type="submit"
+                value="Leave Comment"
+                class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mt-5 mt-lg-0">
+        <!-- Author Bio -->
+        <div
+          class="d-flex flex-column text-center bg-dark rounded mb-5 py-5 px-4"
+        >
+          <img
+            [src]="blog.author.profile_picture"
+            class="img-fluid rounded-circle mx-auto mb-3"
+            style="width: 100px"
+          />
+          <h3 class="text-primary mb-3">{{ blog.author.name }}</h3>
+          <h3 class="text-uppercase mb-4" style="letter-spacing: 5px">
+            Tag Cloud
+          </h3>
+          <p class="text-white m-0">{{ blog.author.bio }}</p>
+        </div>
+
+        <!-- Recent Post -->
+        <div class="mb-5">
+          <h3 class="text-uppercase mb-4" style="letter-spacing: 5px">
+            Recent Post
+          </h3>
+          <a
+            *ngFor="let post of blog.recent_posts"
+            class="d-flex align-items-center text-decoration-none mb-3"
+            href=""
+          >
+            <img class="img-fluid rounded" [src]="post.image" alt="" />
+            <div class="pl-3">
+              <h6 class="m-1">{{ post.title }}</h6>
+              <small>{{ post.date }}</small>
+            </div>
+          </a>
+        </div>
+
+        <!-- Tag Cloud -->
+        <div class="mb-5">
+          <h3 class="text-uppercase mb-4" style="letter-spacing: 5px">
+            Tag Cloud
+          </h3>
+          <div class="d-flex flex-wrap m-n1">
+            <a
+              *ngFor="let tag of blog.tags"
+              href=""
+              class="btn btn-outline-primary m-1"
+              >{{ tag }}</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Detail End -->

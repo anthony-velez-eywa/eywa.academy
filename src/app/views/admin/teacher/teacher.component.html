@@ -1,1 +1,73 @@
-<p>teacher works!</p>
+<app-headerpage [title]="'Teacher'" [subtitle]="'Meet our teaching staff'"></app-headerpage>
+
+<!-- Profesor Start -->
+<div class="container-fluid py-5 bg-primary" style="margin-top: -90px; margin-bottom: -90px;">
+    <div class="container pt-5 pb-3">
+      <div class="row">
+        <!-- Detalles del Profesor -->
+        <div class="col-lg-6 text-center text-lg-left">
+          <div class="team-item rounded overflow-hidden mb-2">
+            <!-- Foto del Profesor -->
+            <div class="team-img position-relative">
+              <img class="img-fluid" [src]="professor.photo" alt="Jane Smith" />
+              <div class="team-social">
+                <a class="btn btn-outline-light btn-square mx-1" href="https://twitter.com/jane_smith" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a class="btn btn-outline-light btn-square mx-1" href="https://linkedin.com/in/jane-smith" target="_blank">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a class="btn btn-outline-light btn-square mx-1" href="https://jane-smith-designs.com" target="_blank">
+                  <i class="fas fa-globe"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Información del Profesor -->
+        <div class="col-lg-6">
+          <div class="bg-secondary p-4 ">
+            <!-- Nombre y Título -->
+            <h2>{{ professor.name }}</h2>
+            <p class="text-muted">{{ professor.title }}</p>
+  
+            <!-- Biografía -->
+            <p class="mt-3">{{ professor.bio }}</p>
+  
+            <!-- Educación y Experiencia -->
+            <div class="mt-4">
+              <h5 class="text-primary">Education</h5>
+              <p>{{ professor.education }}</p>
+              <h5 class="text-primary mt-3">Years of Experience</h5>
+              <p>{{ professor.yearsOfExperience }} years</p>
+            </div>
+  
+            <!-- Especialidades -->
+            <div class="mt-4">
+              <h5 class="text-primary">Expertise</h5>
+              <ul class="list-unstyled">
+                <li *ngFor="let item of professor.expertise">
+                  <i class="fa fa-check text-primary mr-2"></i>{{ item }}
+                </li>
+              </ul>
+            </div>
+  
+            <!-- Cursos Impartidos -->
+            <div class="mt-4">
+              <h5 class="text-primary">Courses Taught</h5>
+              <ul class="list-unstyled">
+                <li *ngFor="let course of professor.coursesTaught">
+                  <a [routerLink]="['/courses', course.courseId]" class="text-decoration-none">
+                    <strong>{{ course.courseName }}</strong> - {{ course.courseDuration }} (Rating: {{ course.courseRating }})
+                  </a>
+                </li>
+              </ul>
+            </div>            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Profesor End -->
+  
