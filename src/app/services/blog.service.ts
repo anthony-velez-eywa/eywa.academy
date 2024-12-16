@@ -19,4 +19,11 @@ export class BlogService {
   getBlogById(id: number): Observable<any | undefined>{
     return this.getBlogs().pipe(map(blogs=> blogs.find(blog=> blog.id === id))); 
   }
+
+  // Método para obtener los posts recientes
+  getRecentPosts(): Observable<any[]> {
+    return this.http.get<{ recent_posts: any[] }>(this.jsonPath).pipe(
+      map(response => response.recent_posts)
+    );
+  }
 }
