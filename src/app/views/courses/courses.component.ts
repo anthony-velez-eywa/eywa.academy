@@ -1,7 +1,7 @@
+import { NgFor } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { CourseService } from '../../../services/course.service';
-import { NgFor } from '@angular/common';
+import { CourseService } from '../../services/course.service';
 
 @Component({
   selector: 'app-courses',
@@ -9,6 +9,7 @@ import { NgFor } from '@angular/common';
   templateUrl: './courses.component.html',
   styleUrl: './courses.component.css'
 })
+
 export class CoursesComponent implements OnInit {
   courses : any;
   constructor (private courseService: CourseService){}

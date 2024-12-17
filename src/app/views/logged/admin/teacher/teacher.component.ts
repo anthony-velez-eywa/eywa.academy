@@ -1,8 +1,8 @@
 import { NgFor } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
-import { ProfessorService } from '../../../services/professor.service';
+import { ProfessorService } from '../../../../services/professor.service';
 import { ActivatedRoute, RouterLink } from '@angular/router';
-import { HeaderpageComponent } from '../../../shared/components/headerpage/headerpage.component';
+import { HeaderpageComponent } from '../../../../shared/components/headerpage/headerpage.component';
 
 @Component({
   selector: 'app-teacher',

@@ -1,0 +1,41 @@
+/* Sidebar Personalizado */
+.sidebar {
+    height: 100vh;
+    background-color: #212529; /* Color oscuro */
+    color: white;
+  }
+  
+  .sidebar h4 {
+    font-weight: bold;
+  }
+  
+  .list-group-item {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .list-group-item.active {
+    background-color: #6c63ff; /* Color activo */
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Video Area */
+  .embed-responsive iframe {
+    border: none;
+  }
+  
+  .text-center h3 {
+    color: #f8f9fa; /* Blanco */
+    margin-bottom: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #6c63ff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #5a52e0;
+  }
+  

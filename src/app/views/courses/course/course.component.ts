@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { CourseService } from '../../../../services/course.service';
+import { HeaderpageComponent } from '../../../shared/components/headerpage/headerpage.component';
+import { NgFor, NgIf } from '@angular/common';
 import { ActivatedRoute, RouterLink } from '@angular/router';
-import { NgForOf, NgIf } from '@angular/common';
-import { HeaderpageComponent } from "../../../../shared/components/headerpage/headerpage.component";
+import { CourseService } from '../../../services/course.service';
 
 @Component({
   selector: 'app-course',
-  imports: [HeaderpageComponent, NgIf, NgForOf, HeaderpageComponent,RouterLink],
+  imports: [HeaderpageComponent, NgIf, NgFor, HeaderpageComponent,RouterLink],
   templateUrl: './course.component.html',
   styleUrl: './course.component.css'
 })
